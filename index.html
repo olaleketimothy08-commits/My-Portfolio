@@ -12,7 +12,7 @@
   <title>Damola Portfolio</title>
 </head>
 <body>
-
+<!-- 
   <nav class="navbar" id="navbar">
     <h2><a href="">Damola</a></h2>
     <ul>
@@ -26,10 +26,44 @@
     <i class="fa-solid fa-bars"></i>
   </div>
   </nav>
+ -->
 
+ <nav class="navbar navbar-expand-lg bg-success fixed-top z-index1 mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light " href="#Home">Damola<span class="text-light">Tech</span> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
 
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-success bg-success">
+              <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+              <li><a class="dropdown-item" href="#Projects">Projects</a></li>
+              <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+            </ul>
+          </li>
+           </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-  <section class="section" data-aos="zoom-in" data-aos-duration="3000">
+  <section class="section" data-aos="zoom-in" data-aos-duration="3000" id="Home">
     <div>
     <h1>Hello, I'm <b>Damola</b></h1>
     <p>I'm a Frontend Developer </p>
