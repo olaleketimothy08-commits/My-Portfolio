@@ -12,64 +12,57 @@
   <title>Damola Portfolio</title>
 </head>
 <body>
-<!-- 
-  <nav class="navbar" id="navbar">
-    <h2><a href="">Damola</a></h2>
-    <ul>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul> 
-
-    <div class="menu-toggle">
-    <i class="fa-solid fa-bars"></i>
-  </div>
-  </nav>
- -->
-
- <nav class="navbar navbar-expand-lg bg-success fixed-top z-index1 mb-5">
+  <!-- navbar starts here  -->
+  <nav class="navbar navbar-expand-lg bg-success fixed-top z-index-1">
     <div class="container-fluid">
-      <a class="navbar-brand text-light " href="#Home">Damola<span class="text-light">Tech</span> </a>
+
+      <a class="navbar-brand text-light" href="#Home">DAMOLA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
-
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
-          </li> 
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link active text-light" aria-current="page" href="#About">About</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu dropdown-menu-success bg-success">
-              <li><a class="dropdown-item" href="#Skills">Skills</a></li>
-              <li><a class="dropdown-item" href="#Projects">Projects</a></li>
-              <li><a class="dropdown-item" href="#Contact">Contact</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Skills">Skills</a>
           </li>
-           </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Testimonials">Testimonials</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Contact">Contact Me</a>
+          </li>
+          <li class="dark-mode"> 
+          <button onclick="myFunction()"><i class="fa-solid fa-moon"></i></button>
+          </li>
       </div>
     </div>
   </nav>
+  <!-- navbar ends here -->
+
+  <!-- home starts here -->
 
   <section class="section" data-aos="zoom-in" data-aos-duration="3000" id="Home">
     <div>
     <h1>Hello, I'm <b>Damola</b></h1>
     <p>I'm a Frontend Developer </p>
-    <button><a href="https://github.com/">See My Work</a></button>
+    <button><a href="https://vercel.com/dee-techs-projects">See My Work</a></button>
     </div>
   </section>
+    <!-- home ends here -->
+
+  <!-- about starts here -->
 
   <header class="header" data-aos="zoom-in-up" data-aos-duration="3000">
     
@@ -84,7 +77,9 @@
       </div>
     </main>  
   </header>
+    <!-- about ends here -->
 
+      <!-- skills starts here -->
   <figure class="figure" data-aos="zoom-in-down" data-aos-duration="3000">
     <h1 id="Skills">Skills & Specialties</h1>
     <p class="p">I specialize in <b>HTML, CSS, Javascript</b> and <b>Bootstrap</b> - crafting fast, 
@@ -106,46 +101,75 @@
       <p>utility first - rapid UI </p>
       </button>
   </figure>
+    <!-- skills ends here -->
 
-  <section class="sec2" data-aos="zoom-out-up" data-aos-duration="3000">
-    <h1 id="Projects">Recent Works</h1>
+  <!-- project starts here -->
 
-    <main>
-      <div>
-        <img src="images/regenduo pics.png" alt="" class="imgg">
-        <h3>Regenduo Website</h3>
-        <p class="p2">A medical Treatment website with managements features</p>
+  <section class="grid-container" data-aos="zoom-in-up" data-aos-duration="2000"  id="Projects">
+    <div>
+      <a
+        href="https://digitalbanking2.netlify.app/">
+        <img src="images/Screenshot_19-11-2025_751_digitalbanking2.netlify.app.jpeg" alt="">
+        <h4>Digital Banking</h4>
         <p>HTML, CSS</p>
-        <a href="https://damolaregenduo.netlify.app/">View Project</a>
-      </div>
+      </a>
+    </div>
 
-      <div>
-        <img src="images/calculator.png" alt="" class="img2">
-        <h3>Calculator Project</h3>
-        <p class="p2">A Blogr website with managements features</p>
+    <div>
+      <a href="https://insurepage22.netlify.app/">
+        <img src="images/screenshot-1763535969313.png" alt="">
+           <h4>Insurance Landing Page</h4>
+        <p>HTML, CSS</p>
+      </a>
+    </div>
+
+    <div>
+      <a href="https://damolaregenduo.netlify.app/">
+        <img src="images/regenduo pics.png" alt="">
+          <h4>Regenduo Medical Centre</h4>
+        <p>HTML, CSS</p>
+      </a>
+    </div>
+
+    <div>
+      <a href="https://calculator-project-ten-gray.vercel.app/">
+        <img src="images/calculator.png" alt="">
+           <h4>Calculator</h4>
         <p>HTML, CSS, Javascript</p>
-        <a href="https://calculator-project-ten-gray.vercel.app/">View Project</a>
-      </div>
+      </a>
+    </div>
 
-      <div>
-        <img src="images/r.png" alt="" class="imgg">
-        <h3>Habitat Website</h3>
-        <p class="p2">A Real Estate website with managements features</p>
+    <div>
+      <a href="https://habitatrealestateproject.netlify.app/">
+        <img src="images/r.png" alt="">
+           <h4>Habitat Real Estate</h4>
         <p>HTML, CSS, Javascript</p>
-        <a href="https://real-estate-project-phi-lovat.vercel.app/">View Project</a>
-      </div>
-    </main>
+      </a>
+    </div>
 
+    <div>
+      <a
+        href="https://interior-design-two-rho.vercel.app/">
+        <img src="images/interior design ss.png" alt="">
+        <h4>Classic Comfort Interior Design</h4>
+        <p>HTML, CSS, Javascript, Bootstrap</p>
+      </a>
+    </div>
   </section>
 
+    <!-- project ends here -->
+
+  <!-- testimonial starts here -->
   <figure class="f1" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" id="Testimonials">
     <h3>What People Say</h3>,
     <i>"Damola is dedicated and passionate about web development. His designs are fresh, responsive, and functional."
       -Client/Colleague Feedback
     </i>
   </figure>
+  <!-- testimonial ends here -->
 
+    <!-- contact starts here -->
   <main data-aos="fade-up" data-aos-duration="3000">
     <h2 id="Contact">Contact Me</h2>
     <form action="">
@@ -156,7 +180,9 @@
     </form>
     <button><a href="">Send</a></button>
   </main>
+    <!-- contact ends here -->
 
+<!-- icon starts here -->
   <section class="sect">
   <main class="main2">
     <div class="d1">
@@ -172,11 +198,18 @@
     </div>
   </main>
   </section>
+  <!-- icon ends here -->
   
+  
+  <!-- footer starts here -->
   <footer>
     <p>copyright 2025 Damola. All Rights Reserved.</p>
   </footer>
+<!-- footer ends here -->
+ <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
+ 
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
